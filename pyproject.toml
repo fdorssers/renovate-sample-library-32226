@@ -1,0 +1,14 @@
+[project]
+name = "renovate-sample-library-32226"
+version = "0.1.0"
+description = "A sample library to test uv dependency updating my Renovate"
+readme = "README.md"
+authors = [
+    { name = "Frank Dorssers", email = "frank.dorssers@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
